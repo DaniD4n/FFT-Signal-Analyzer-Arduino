@@ -1,0 +1,13 @@
+# Analog Circuit
+
+This directory contains documentation related to the analog
+signal conditioning circuit.
+
+## Circuit Stages
+- Signal acquisition (piezoelectric sensor, antenna, audio input)
+- Non-inverting operational amplifier (LM324)
+- RC low-pass filter (~700 Hz cutoff)
+
+## Contents
+- Circuit schematics
+- Prototype photographs
