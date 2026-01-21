@@ -1,0 +1,15 @@
+# Processing Application
+
+This directory contains the Processing (Java-based) application
+used for real-time signal visualization and spectral analysis.
+
+## Features
+- Serial data acquisition from Arduino
+- Real-time time-domain plotting
+- Frequency-domain analysis using FFT
+- Interactive graphical interface
+
+## Libraries Used
+- Minim (FFT)
+- ControlP5 (GUI)
+- Processing Serial library
