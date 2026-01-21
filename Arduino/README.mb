@@ -1,0 +1,14 @@
+# Arduino Firmware
+
+This directory contains the Arduino firmware responsible for
+analog signal acquisition and serial transmission.
+
+## Description
+- Reads analog data from pin A0
+- Converts 10-bit ADC values to 8-bit resolution
+- Sends data continuously via USB serial
+
+## Notes
+- Designed for Arduino Uno
+- Maximum effective sampling rate ≈ 4 kHz
+- No DC offset implemented (unipolar input only)
